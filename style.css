@@ -1,0 +1,57 @@
+p:hover{
+    cursor: pointer;
+}
+
+.active{
+    color: white;
+    background-color: purple;
+    height: 40px;
+    border-radius: 20px;
+}
+
+body{
+    background-image: url("./background\ image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+}
+#main{
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: aqua;
+    margin-top: 200px;
+}
+
+#heading{
+    display: flex;
+     justify-content: space-between;
+     align-items: center;
+     font-size: xx-large;
+     margin-left: 20px;
+} 
+
+#timer{
+    font-size: 3rem;
+    margin-right: 20px;
+}
+
+button{
+    background-color: transparent;
+    color: purple;
+    font-size: 3rem;
+    outline:none;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.fa-trophy{
+    font-size: 100px;
+}
